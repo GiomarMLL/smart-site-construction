@@ -31,6 +31,7 @@ body {
 .banner h2{
    font-family:'Courier New', Courier, monospace;
    font-size: 40px;
+   text-align: center;
    text-transform: uppercase;
 }
 .banner p{
@@ -106,6 +107,10 @@ body {
   margin:10px;
   border:2px solid white;
   border-radius: 70%;
+}
+.red-social li:hover{
+  color: skyblue;
+  border: 2px solid skyblue;
 }
 .nav-background{
   background: #030933;
@@ -227,4 +232,16 @@ body {
    .banner h2{
      text-align: center;
    }
+   .banner p{
+    padding:20px
+   }
 }
+@media screen and (max-width:400px){
+  
+  .progress-bar{
+    width:300px
+  }
+  .red-social .item{
+     font-size: 20px;
+  }
+} 
